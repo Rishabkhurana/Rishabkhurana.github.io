@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+	padding:0rem;
+    margin-top: 0rem;;
+}
+.back{
+    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg);
+    background-size:100%;
+    background-repeat: no-repeat; ;
+}
+.sec1 {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    
+
+}
+/* #header{
+    overflow: hidden;
+    background-color:transparent;
+    color: azure;
+    float:right;
+	padding-right: 100px;
+    display: block;
+} */
+
+
+.topnav{
+    overflow:hidden;
+    background-color:transparent;
+    color: azure;
+    float:right;
+	padding-right: 2rem;
+    content:f;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color:lightseagreen;
+    color: white;
+	float:right;
+}
+.sec1__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    /* background: blue; */
+    width: 100%;
+    padding: 0 5rem;
+    /* background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg);
+    background-size:100%;
+    background-repeat: no-repeat; */
+    
+}
+
+
+
+
+.sec1__content .sec1__contentDetail h1 {
+    font-weight: 800;
+    font-size: 6rem;
+    text-transform: capitalize;
+    /* transform: translateY(7rem); */
+	color:lightseagreen;
+    
+}
+.sec1__content .sec1__contentDetail h3{
+    
+    font-size: 1rem;
+    justify-content:center;
+    color:yellow;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:left;
+    font-size: larger;
+}
+
+.sec1__contentHider {
+    overflow: hidden;
+}
+.sec1__content .sec1__contentDetail h1 span  {
+    color:azure; 
+}
+.sec1__content .sec1__contentDetail {
+    margin-bottom: 10rem;
+}
+.experience{
+    display:block;
+    color:azure;
+}
+
+
+#about{
+    margin-bottom: 11rem;
+    color:azure;
+    padding:3rem;
+    /* background-image: url(https://html.sammy-codes.com/images/background.jpg    );
+    background-repeat: no-repeat; */
+    
+    
+}
+.image{
+    padding:3rem;
+    padding-right: 10rem;
+    padding-top:3rem;
+}
+.inner{
+    padding:3rem;
+    padding-left: 5rem;
+    background-color:lightseagreen;
+}
+.ab_content{
+    color:azure;
+    color:black;
+    display:-webkit-inline-box;
+    padding-top:0rem;
+    padding-left:   10rem;
+}
+
+/* .intro{
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-left: 200px;
+	margin-top: 0px;
+
+} */
+/* .intro h1 span{
+    color:aqua;
+	width:fit-content;
+	position: relative;
+	background-position: center;
+	font-weight: 500;
+	font-size: 5rem;
+}
+.introme{
+	position: relative;
+	color:blue;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.introme p{
+	font-size: 1.5rem;
+
+}
+.resume h1{
+	background-color: navy;
+    color:azure;
+}
+.resume h2{
+	background-color:orange;
+    color:black;
+} */
+
+/* .home_container{
+	color:azure;
+	display:flex;
+	justify-content:space-between ;
+	align-items: center;
+	width:100%;
+	padding:0 5rem;
+	margin-top:10rem ;
+	flex-wrap: wrap;
+} */
+/* .home_container h1{
+	font-weight: 500;
+	font-size: 4rem;
+	text-transform:capitalize;
+	margin-top:10rem;
+} */
+#work{
+    color:azure;
+    text-align: center;
+}
+.card servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+.card servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%; 
+}
+.card-title mt-3 {
+    text-align: center;
+}
+.card:hover .far servicesIcon  {
+    color: #008000;
+}
+.servicesText:hover {
+    border: .2rem solid lightseagreen ;
+}
+
+
+/* footer
+.container-fluid{
+
+}
+.fa-facebook{
+    background-image: url(https://flyclipart.com/thumb2/fb-facebook-social-network-icon-free-of-social-circular-icons-744451.png);
+    background-size: 10px;
+} */
